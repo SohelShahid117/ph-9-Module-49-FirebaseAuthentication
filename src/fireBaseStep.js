@@ -21,4 +21,5 @@
 12.use signInWithPopUp & pass -->auth & provider
 13.activate sign in method(google,fb,github...)
 14.[vite]:change 127.0.0.1 to localhost
+15.active the auth provide(create app,provide redirect url,client id,client secret)
 */
