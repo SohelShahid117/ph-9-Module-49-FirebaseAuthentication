@@ -46,6 +46,15 @@ const Login = () => {
   };
   const handleGithubSignIn = () => {
     console.log("hi");
+    signInWithPopup(auth, githubProvider)
+      .then((result) => {
+        const loggedUser = result.user;
+        console.log(loggedUser);
+        setUser(loggedUser);
+      })
+      .then((err) => {
+        console.log(err);
+      });
   };
 
   return (
